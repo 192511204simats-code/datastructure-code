@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+struct node
+{
+    int data;
+    struct node *left,*right;
+};
+
+int main()
+{
+    printf("AVL Tree Operations:\n");
+    printf("1. Insert\n");
+    printf("2. Delete\n");
+    printf("3. Search\n");
+    return 0;
+}
